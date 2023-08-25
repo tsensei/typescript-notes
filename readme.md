@@ -2,6 +2,17 @@
 
 This repository contains an extensive exploration of classes in JavaScript and TypeScript. It's crafted to help developers understand the underlying mechanics of classes, inheritance, encapsulation, and the prototypical nature of JavaScript.
 
+## Getting Started 🚀
+
+To make your journey through the code examples even more enjoyable, especially if you're using Visual Studio Code, I recommend installing the Better Comments extension. It'll highlight the comments in the code, making it easier to follow along and grasp the concepts.
+
+Simply follow these steps:
+
+    Open Visual Studio Code.
+    Go to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window.
+    Search for "Better Comments."
+    Click the 'Install' button.
+
 ## Contents
 
 ### Classes in JavaScript
