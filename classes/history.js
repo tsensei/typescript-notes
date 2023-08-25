@@ -53,6 +53,9 @@ const personJohn2 = personFactory('John', 'Doe');
 // ! Now we have a single instance of the objects but we can go a step furthur
 // ! and let the `new` keyword automate the object creation and returning
 
+// * Solution_3) Factory Functions with `new` - Function returning objects with predefined __proto__ reference
+
+
 /* 
  ? `new` keyword basically does three job
  ? 1) Create a empty object and assign to `this`
