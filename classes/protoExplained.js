@@ -51,4 +51,10 @@ console.log(car.drive === carConstructor.prototype.drive); // Outputs : true
 
 
 // ? Interesting : How do we call the toString method if its not defined in the car.drive function-object ?
-console.log(car.drive.toString());
+
+// This call to toString() on the drive function will work because it is defined in Function.prototype
+console.log(car.drive.toString()); // Outputs the source code of the drive function
+
+// You can verify this by checking the prototype chain:
+console.log(car.drive.__proto__ === Function.prototype); // Outputs : true
+console.log(car.drive.__proto__.toString === Function.prototype.toString); // Outputs : true
